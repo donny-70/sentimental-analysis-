@@ -56,19 +56,16 @@ Each record in the dataset contains:
 
 ## 🧪 Model Architecture
 
-Input (500 padded tokens)
-↓
-Embedding Layer (2000 vocab, 50 dim)
-↓
-LSTM (64 units)
-↓
-Dense (256) + ReLU Activation
-↓
-Dropout (0.5)
-↓
-Dense (1) + Sigmoid Activation
-↓
-Binary Classification (Positive / Negative)
-
-yaml
-Copy code
+- Input (500 padded tokens)
+- ↓
+- Embedding Layer (2000 vocab, 50 dim)
+- ↓
+- LSTM (64 units)
+- ↓
+- Dense (256) + ReLU Activation
+- ↓
+- Dropout (0.5)
+- ↓
+- Dense (1) + Sigmoid Activation
+- ↓
+- Binary Classification (Positive / Negative)
